@@ -1,0 +1,15 @@
+[package]
+name = "vrm-anatomy"
+description = "Renderer-agnostic VRM SDK with anatomical bone schema (C2/T6/L5, Femur/Radius/Tibia…) for Mixamo/Rigify/RPM/VRM cross-rig resolution. CPU skinning included, zero GPU deps."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[features]
+default = []
+humanoid = []
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
