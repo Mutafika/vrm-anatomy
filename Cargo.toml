@@ -8,12 +8,6 @@ edition = "2024"
 license = "MIT"
 
 [workspace.dependencies]
-# workspace-internal
-vrm-anatomy = { path = "crates/vrm-anatomy" }
-vrm-seimei = { path = "crates/vrm-seimei" }
-
-# external
-seimei = { path = "../seimei" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tracing = "0.1"
